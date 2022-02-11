@@ -19,3 +19,14 @@ Some resolution variations around 1920x1080 run at 51 FPS!
 Anything above 2028x1520 runs at 11 FPS.
 
 Many of the modes show skew when viewed using OpenCV, so somewhere a stride is being ignored.
+
+# Getting Started
+git clone https://github.com/atalkingegg/simpler-vid.git
+
+cd simpler-vid
+
+make
+
+arducam-demo
+
+nocv-demo
